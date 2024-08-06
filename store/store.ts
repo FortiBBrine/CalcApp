@@ -6,3 +6,4 @@ export const store = configureStore({
         input: inputSlice.reducer
     },
 })
+export type IRootState = ReturnType<typeof store.getState>
